@@ -4,10 +4,10 @@ public class Programa {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Informe a idade do cliente: ");
+    System.out.println("Informe a idade do cliente: ");
     int idade = scanner.nextInt();
 
-    System.out.print("Informe o sexo do cliente (M/F): ");
+    System.out.println("Informe o sexo do cliente (M/F): ");
     String sexo = scanner.next().trim().toUpperCase();
 
     double mensalidade;
