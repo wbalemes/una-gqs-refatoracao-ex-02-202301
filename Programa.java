@@ -8,7 +8,7 @@ public class Programa {
     int idade = scanner.nextInt();
 
     System.out.print("Informe o sexo do cliente (M/F): ");
-    String sexo = scanner.next();
+    String sexo = scanner.next().trim().toUpperCase();
 
     double mensalidade;
 
